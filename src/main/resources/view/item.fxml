@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="447.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.supermarket.Controller.ItemController">
+   <children>
+      <Text layoutX="226.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Item form" wrappingWidth="158.453125">
+         <font>
+            <Font name="Cambria Math" size="32.0" />
+         </font>
+      </Text>
+      <TextField layoutX="77.0" layoutY="84.0" prefHeight="25.0" prefWidth="178.0" promptText="item name" />
+      <TextField layoutX="323.0" layoutY="84.0" prefHeight="25.0" prefWidth="178.0" promptText="item code" />
+      <TextField layoutX="77.0" layoutY="125.0" prefHeight="25.0" prefWidth="178.0" promptText="item qty" />
+      <TextField layoutX="323.0" layoutY="125.0" prefHeight="25.0" prefWidth="178.0" promptText="unit price" />
+      <JFXButton layoutX="359.0" layoutY="171.0" prefHeight="39.0" prefWidth="63.0" style="-fx-background-color: #829c80;" text="Cancel">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="438.0" layoutY="171.0" prefHeight="39.0" prefWidth="63.0" style="-fx-background-color: #d2d9ab;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </JFXButton>
+      <TableView layoutX="83.0" layoutY="224.0" prefHeight="213.0" prefWidth="465.0">
+        <columns>
+          <TableColumn prefWidth="147.0" text="Name" />
+          <TableColumn prefWidth="121.0" text="Code" />
+            <TableColumn prefWidth="81.0" text="qty" />
+            <TableColumn prefWidth="115.0" text="Price" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

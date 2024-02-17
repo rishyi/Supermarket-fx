@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="447.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.supermarket.Controller.DashboardController">
+   <children>
+      <AnchorPane layoutX="80.0" layoutY="53.0" prefHeight="147.0" prefWidth="172.0" style="-fx-background-color: #78858f;">
+         <children>
+            <Label layoutX="31.0" layoutY="23.0" prefHeight="40.0" prefWidth="111.0" style="-fx-background-color: #8d969e;" text="Customer" wrapText="true">
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="62.0" layoutY="74.0" prefHeight="40.0" prefWidth="49.0" style="-fx-background-color: #8d969e;" text="100" wrapText="true">
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="300.0" layoutY="53.0" prefHeight="147.0" prefWidth="172.0" style="-fx-background-color: #a5abb0;">
+         <children>
+            <Label layoutX="39.0" layoutY="24.0" prefHeight="40.0" prefWidth="94.0" style="-fx-background-color: #8d969e;" text="Item qty" wrapText="true">
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="62.0" layoutY="74.0" prefHeight="40.0" prefWidth="49.0" style="-fx-background-color: #8d969e;" text="750" wrapText="true">
+               <font>
+                  <Font name="Ebrima Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TableView layoutX="80.0" layoutY="212.0" prefHeight="174.0" prefWidth="392.0">
+        <columns>
+          <TableColumn prefWidth="187.0" text="Id" />
+          <TableColumn minWidth="0.0" prefWidth="204.0" text="Details" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
